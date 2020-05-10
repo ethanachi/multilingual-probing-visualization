@@ -1,0 +1,96 @@
+
+body {
+    /* padding: 1em; */
+  /* font: 11px sans-serif; */
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+/*  stroke: blue;*/
+}
+
+.sentenceTooltip {
+  position: absolute;
+  width: 200px;
+/*  height: 28px;*/
+  pointer-events: none;
+  background-color: white;
+  opacity: 1;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.field {
+    width: 300px;
+    /* margin: 25px; */
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.selectedDot {
+    stroke: black;
+    stroke-width: 4px;
+}
+
+#visualization {
+    float: left;
+    /* width: 90vh;
+    height: 90vh; */
+}
+
+.side {
+    background-color: #e6e6e6;
+    border: 1px solid #dddddd;
+    border-radius: 0.5em;
+    margin-left: 6em;
+    padding: 1.5em;
+}
+
+.toolbar {
+    margin-bottom: 2em;
+}
+
+.content {
+    padding: 1em;
+}
+
+#loading {
+    position: absolute;
+    left: 25%;
+    width: 500px;
+    margin-left: -250px;
+    text-align: center;
+    top: 25vh;
+}
+
+#language-checkboxes {
+    margin-bottom: 1em;
+}
+
+.field {
+    font-size: 12px;
+    margin-bottom: 2em;
+}
+
+.dot {
+    height: 0.75em;
+    width: 0.75em;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.legendRow {
+    margin-bottom: 1px;
+}
+
+#legend {
+    border: 1px solid #bbb;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}

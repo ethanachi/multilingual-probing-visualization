@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/extended.css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">Multilingual Probing Visualization</a>
+        </nav>
+        <div class="row content">
+            <div class="col-s-8" id="visualization">
+                <div id="loading">
+                    <p >Loading data...</p>
+                    <small>(this may take a while, so please be patient)</small>
+                </div>
+                <svg id="svg"/>
+            </div>
+            <div class="side col-s-4">
+                <p style="width:300px;">Select languages to visualize using the checkboxes, then click <i>Reload</i> to reload data.
+                Hover to see information for a specific relation; click to freeze in view.</p>
+                <div class="toolbar">
+                    <button onclick="reloadData()" class="btn btn-primary">Reload</button>
+                    <button onclick="selectAll()" class="btn btn-primary">Select All</button>
+                    <!-- <button onclick="saveImage()" class="btn btn-primary">Save Image</button> -->
+                </div>
+                <div id="language-checkboxes"> </div>
+                <div class="field"> </div>
+                <div id="legend">
+                </div>
+            </div>
+            <script src="https://d3js.org/d3.v5.min.js"></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js'></script>
+            <script src="main.js"></script>
+        </div>
+    </body>
+</html>
