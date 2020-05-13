@@ -4,7 +4,8 @@
 
 # multilingual-probing-visualization
 
-This repository is a codebase for probing and visualizing multilingual language models, specifically Multilingual BERT, based on the ACL'20 paper [A Structural Probe for Finding Syntax in Word Representations](https://nlp.stanford.edu/pubs/chi2020finding.pdf).  It draws heavily from the [structural-probes](https://github.com/john-hewitt/structural-probes/) codebase of Hewitt and Manning (2019).  All code is under the Apache license.
+This repository is a codebase for probing and visualizing multilingual language models, specifically Multilingual BERT, based on the ACL'20 paper [Finding Universal Grammatical Relations in Multilingual BERT
+](https://nlp.stanford.edu/pubs/chi2020finding.pdf).  It draws heavily from the [structural-probes](https://github.com/john-hewitt/structural-probes/) codebase of Hewitt and Manning (2019).  All code is under the Apache license.
 
 
 ## Installation & Getting Started
